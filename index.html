@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Starter Pack</title>
+    <script src="./tailwind.js"></script>
+    <style>
+      @font-face {
+        font-family: varino;
+        src: url("./varino.otf");
+      }
+      .hed {
+        font-family: varino;
+      }
+      .teffect {
+        position: relative;
+      }
+
+      li {
+        background-color: white !important;
+      }
+    </style>
+  </head>
+  <body onload="type()">
+    <div
+      class="bg-slate-800 w-full h-screen overflow-hidden overflow-y-scroll flex flex-col gap-6 py-10"
+    >
+      <h1 class="text-3xl font-bold text-sky-400 hed text-center w-full">
+        Eugene's Starter Pack
+      </h1>
+      <div class="w-full justify-center flex">
+        <div
+          class="border-4 rounded bg-black text-green-400 border-gray-300 h-[350px] w-[600px] p-6"
+        >
+          <code class="text-lg teffect overflow-hidden tracking-wide">
+            <!-- >> Good Morning Nelly,
+            <br />
+            <br />
+            >> You'll find a list of cards containing direct download links for
+            the various software we need to get you started. In the said cards,
+            you'll find the reason for each software
+            <br />
+            <br />
+            >> The coding community welcomes you :)
+            <br />
+            <br />
+
+            <form onsubmit="hasSubmit()">
+              <div>
+                <label> >> type "I agree" to continue</label>
+                <br />
+                <div class="flex flex-row">
+                  <label>></label>
+
+                  <input
+                    type="text"
+                    name=""
+                    id="answer"
+                    class="bg-transparent border-none outline-none px-3 focused"
+                    autofocus
+                  />
+                </div>
+              </div>
+            </form> -->
+          </code>
+        </div>
+      </div>
+
+      <ul class="w-full flex flex-wrap gap-10 justify-center mt-10">
+        <li
+          class="w-[600px] bg-white rounded-lg shadow-lg overflow-hidden py-10 pl-2"
+        >
+          <a
+            target="_blank"
+            href="https://downloads.scratch.mit.edu/desktop/Scratch%20Setup.exe"
+            download="https://downloads.scratch.mit.edu/desktop/Scratch%20Setup.exe"
+            class="flex flex-row items-center"
+          >
+            <img
+              src="./scratch.png"
+              alt="scratch"
+            />
+            <div class="px-5 py-4">
+              <h1 class="text-3xl font-bold text-slate-800">Scratch</h1>
+              <p class="tracking-wide">
+                Scratch is a visual editor to get us started. <br />
+                Scratch presents us with a drag-and-drop editor. It makes coding
+                fun while teaching the most essenstial concepts <br />
+                <span class="text-blue-500 text-sm"
+                  >click on the image to download scratch
+                </span>
+              </p>
+            </div>
+          </a>
+        </li>
+        <li
+          class="w-[600px] bg-white rounded-lg shadow-lg overflow-hidden h-fit"
+        >
+          <a
+            target="_blank"
+            href="./Flowgorithm-Setup.zip"
+            download="./Flowgorithm-Setup.zip"
+            class="w-full"
+          >
+            <img
+              src="./flow.png"
+              alt="flowgorithm"
+            />
+            <div class="px-5 py-4">
+              <h1 class="text-3xl font-bold text-slate-800">Flowgorithm</h1>
+              <p class="tracking-wide">
+                In programming we write a lot of logic and we represent our
+                logic with <b>#Flowcharts</b> <br />
+                With flowgorithm, we have the flexibility to draw flowcharts and
+                implement our logic
+                <br />
+                <span class="text-blue-500 text-sm"
+                  >click on the image to download Flowgorithm
+                </span>
+              </p>
+            </div>
+          </a>
+        </li>
+        <li
+          class="w-[600px] bg-white rounded-lg shadow-lg overflow-hidden h-fit py-10 pl-2"
+        >
+          <a
+            target="_blank"
+            href="https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.2/Git-2.39.0.2-32-bit.exe"
+            download="https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.2/Git-2.39.0.2-32-bit.exe"
+            class="flex flex-row items-center"
+          >
+            <img
+              src="./Git-Icon-1788C.png"
+              alt="git"
+              class="w-48"
+            />
+            <div class="px-5 py-4">
+              <h1 class="text-3xl font-bold text-slate-800">Git</h1>
+              <p class="tracking-wide">
+                Git is a version control tool. <br />
+                It helps us to manage and keep track of various versions of our
+                source-code. It has other cool features we'll be exploring
+                <br />
+                <span class="text-blue-500 text-sm"
+                  >click on the image to download git
+                </span>
+              </p>
+            </div>
+          </a>
+        </li>
+        <li
+          class="w-[600px] bg-white rounded-lg shadow-lg overflow-hidden h-fit py-10 pl-2"
+        >
+          <a
+            target="_blank"
+            href="https://www.python.org/ftp/python/3.10.9/python-3.10.9-amd64.exe"
+            download="https://www.python.org/ftp/python/3.10.9/python-3.10.9-amd64.exe"
+            class="flex flex-row items-center"
+          >
+            <img
+              src="./python.jpg"
+              alt="python logo"
+              class="w-44"
+            />
+            <div class="px-5 py-4">
+              <h1 class="text-3xl font-bold text-slate-800">Python</h1>
+              <p class="tracking-wide">
+                Python is a high-level programming language <br />
+                This is going to be the basis of our sessions. We will treat the
+                basics and some intermediate python programming
+                <br />
+                <span class="text-blue-500 text-sm"
+                  >click on the image to download python
+                </span>
+              </p>
+            </div>
+          </a>
+        </li>
+        <li
+          class="w-[600px] bg-white rounded-lg shadow-lg overflow-hidden h-fit"
+        >
+          <a
+            target="_blank"
+            href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
+            download="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
+          >
+            <img
+              src="./vs.png"
+              alt="vs-code"
+              class="w-full"
+            />
+            <div class="px-5 py-4">
+              <h1 class="text-3xl font-bold text-slate-800">
+                Visual Studio Code - VS Code
+              </h1>
+              <p class="tracking-wide">
+                VS code is an all-round text-editor for writing code , it can be
+                configured to run as a fully Integrated Development Environment
+                - IDE
+                <br />
+                This will be our main text-editor/IDE for all our coding
+                problems
+                <span class="text-blue-500 text-sm"
+                  >click on the image to download VS-Code
+                </span>
+              </p>
+            </div>
+          </a>
+        </li>
+      </ul>
+
+      <p class="ml-5 text-white text-center mt-7">
+        Additional software and platforms will be discussed in later sessions ,
+        however visit
+        <a
+          href="https://github.com"
+          class="text-blue-400"
+          >github.com</a
+        >
+        to create a git hub account. catch you later. 👋🏻👋🏻👋🏻
+      </p>
+      <div class="text-gray-300 absolute bottom-0">
+        built by
+        <a
+          href="github.com/eugene-sew"
+          class="text-blue-400"
+          >eugene.dev 🧑🏽‍💻</a
+        >
+      </div>
+    </div>
+    <!-- <script src="./app.js"></script> -->
+  </body>
+</html>

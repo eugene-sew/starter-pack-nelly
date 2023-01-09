@@ -1,0 +1,21 @@
+.teffect::after {
+  content: "";
+  width: 0px;
+  position: absolute;
+  background: #49de80;
+  height: 0px;
+  position: absolute;
+  border-right: 10px solid;
+  bottom: 0%;
+  margin-left: 15px;
+  animation: blink 0.4s infinite ease;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
